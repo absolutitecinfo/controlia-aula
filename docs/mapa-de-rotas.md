@@ -11,7 +11,7 @@ Este documento resume a estrutura atual de rotas da aplicação web, bem como os
 
 ## Árvore de Rotas
 
-```
+```---
 /
 └── auth
     ├── login
