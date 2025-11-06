@@ -1,0 +1,24 @@
+# Configuração SSH para múltiplas contas GitHub
+# Salvar este conteúdo em: C:\Users\USER\.ssh\config
+
+# Conta pessoal (absolutitecinfo)
+Host github-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_personal
+
+# Conta curso (nocode-vibe-coding)
+Host github-course
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_course
+
+# Conta padrão (opcional)
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+
+
+
+
